@@ -1,0 +1,8 @@
+.git
+.gitignore
+.venv
+.pyre
+.pyre_configuration
+Dockerfile
+docker-compose.yml
+.pytest_cache

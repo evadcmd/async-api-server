@@ -1,0 +1,6 @@
+{
+  "source_directories": [
+    "./app"
+  ],
+  "taint_models_path": "./.venv/lib"
+}
