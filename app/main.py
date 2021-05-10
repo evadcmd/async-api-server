@@ -9,10 +9,10 @@ async def index():
     return {"msg": "TATA"}
 
 
-register_tortoise(
-    app,
-    db_url="postgres://root:root@db:5432/asyncapi_db",
-    modules={"models": ["app.models"]},
-    generate_schemas=True,
-    add_exception_handlers=True,
-)
+# register_tortoise(
+# app,
+# db_url="postgres://root:root@db:5432/asyncapi_db",
+# modules={"models": ["app.models"]},
+# generate_schemas=True,
+# add_exception_handlers=True,
+# )
